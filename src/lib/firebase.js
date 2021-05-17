@@ -19,5 +19,4 @@ const { FieldValue } = Firebase.firestore;
 // only run this once when the new project is being created.
 // seedDatabase(firebase);
 
-
 export { firebase, FieldValue };
