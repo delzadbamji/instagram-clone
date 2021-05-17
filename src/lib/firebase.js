@@ -1,7 +1,7 @@
 import Firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import { seedDatabase } from '../seed';
+// import { seedDatabase } from '../seed';
 
 //add your own config details here
 const config = {
@@ -16,7 +16,8 @@ const config = {
 const firebase = Firebase.initializeApp(config);
 const { FieldValue } = Firebase.firestore;
 
-seedDatabase(firebase);
+// only run this once when the new project is being created.
+// seedDatabase(firebase);
 
 
 export { firebase, FieldValue };
