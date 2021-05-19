@@ -11,7 +11,7 @@ function App() {
       <Suspense fallback={<p>Loading...</p>}>
       <Switch>
         <Route path={ROUTES.LOGIN} component={Login}/>
-        <Route path={ROUTES.NOT_FOUND} component={Error404}/>
+        {/* <Route path={ROUTES.NOT_FOUND} component={Error404}/> */}
       </Switch>
       </Suspense> 
     </Router>
