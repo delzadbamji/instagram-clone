@@ -14,5 +14,6 @@ export default function Login() {
 		document.title = 'Login Page';
 	}, []);
 
-	return <p>The Login Page</p>;
+	return <div className="container flex mx-auto max-w-screen-md items-center h-screen">
+		</div>
 }
