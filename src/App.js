@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route path={ROUTES.LOGIN} component={Login}/>
         <Route path={ROUTES.SIGN_UP} component={SignUp}/>
-        {/* <Route path={ROUTES.NOT_FOUND} component={Error404}/> */}
+        <Route path={ROUTES.NOT_FOUND} component={Error404}/>
       </Switch>
       </Suspense> 
     </Router>
