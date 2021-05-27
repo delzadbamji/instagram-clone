@@ -7,6 +7,7 @@ import { DEFAULT_IMAGE_PATH } from '../constants/paths';
 import useUser from '../hooks/use-user';
 
 export default function Header() {
+    console.log(useContext(UserContext))
   const { user: loggedInUser } = useContext(UserContext);
   const { user } = useUser(loggedInUser?.uid);
   const { firebase } = useContext(FirebaseContext);

@@ -5,12 +5,12 @@ import 'firebase/auth';
 
 //add your own config details here
 const config = {
-	apiKey: 'AIzaSyDR0je58GBAiGyc3Nvx9Q-5B_ussnR64QA',
-	authDomain: 'instagram-clone-36789.firebaseapp.com',
-	projectId: 'instagram-clone-36789',
-	storageBucket: 'instagram-clone-36789.appspot.com',
-	messagingSenderId: '736763238978',
-	appId: '1:736763238978:web:b64e98b4e5c4b9f7096bdb'
+	apiKey: env.apiKey,
+	authDomain: env.authDomain,
+	projectId: env.projectId,
+	storageBucket: env.storageBucket,
+	messagingSenderId: env.messagingSenderId,
+	appId: env.appId,
 };
 
 const firebase = Firebase.initializeApp(config);
