@@ -3,7 +3,7 @@ This project was created to replicate the key features of Instagram.
 
 Hope you enjoy using it as much as I enjoyed building it.
 
-If you want to clone my project to add features, you may need to add your own key-values for firestore to work in your own implementation.
+If you want to clone my project to add features, you may need to add your own env for firestore to work in your own implementation.
 
 I shall soon deploy this implementation on a website and make it accessible for use. 
 
