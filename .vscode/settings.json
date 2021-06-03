@@ -1,5 +1,0 @@
-{
-  "git.postCommitCommand": "push",
-  "gitlens.blame.ignoreWhitespace": true,
-  "editor.formatOnSave": true
-}
