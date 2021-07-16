@@ -1,6 +1,7 @@
 # instagram-clone
 
-*Work-in-Progress*
+// Work-in-Progress
+
 This project was created to replicate the key features of Instagram. 
 
 Hope you enjoy using it as much as I enjoyed building it.
