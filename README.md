@@ -1,5 +1,6 @@
 # instagram-clone
-<Work-in-Progress>
+
+* Work-in-Progress*
 This project was created to replicate the key features of Instagram. 
 
 Hope you enjoy using it as much as I enjoyed building it.
@@ -11,5 +12,5 @@ I shall soon deploy this implementation on a website and make it accessible for 
 I used firestore to familiarize myself with the database better, but would love to port it out on MongoDB as a future expansion of this project.
 
 Feel free to PR new features and help resolve issues(if any).
-</Work-in-Progress>
+
 
